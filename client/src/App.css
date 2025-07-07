@@ -1,0 +1,33 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  width: 100vw;
+  height: 100vh;
+
+  background: linear-gradient(
+      135deg,
+      rgba(48, 74, 95) 0%,
+      rgb(4, 40, 69, 1) 80%
+    ),
+    rgba(4, 40, 69, 1);
+
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.glass {
+  background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.25) 0%,
+      rgba(255, 255, 255, 0) 60%
+    ),
+    rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: inset 0 0 42px rgba(255, 255, 255, 0.2);
+}
